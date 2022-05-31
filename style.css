@@ -80,3 +80,54 @@ button{
  border-radius: 10px; 
  cursor: pointer;
 }
+
+.col-1::after{
+  content: '';
+  width: 10px;
+  height: 57%;
+  background: linear-gradient(royalblue, darkblue, purple);
+  position: absolute;
+ left: -40px;
+ top: 8px;
+ border-radius: 4px;
+}
+
+.col-2{
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.col-2 .watch{
+  width: 80%;
+  margin-left: 20px;
+}
+.colorbox{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(royalblue, darkblue);
+  border-radius: 20px 0 0 20px;
+   
+  height: 100%;
+  width: 90%;
+  z-index: -1;
+  transform: translateX(150px);
+}
+.add img{
+  width: 35px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  
+}
+.add{
+  text-align: center;
+  color: white;
+  margin-left: 23px;
+}
+.add p{
+  text-size: 23px;
+  margin-top: 13px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
