@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .contaner{
   width: 100%; 
@@ -57,7 +57,7 @@ nav ul li a:hover{
 }
 .col-1 h2{
   font-size: 54px;
-  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .col-1 h5{
   font-size: 20px;
@@ -140,7 +140,63 @@ button{
 }
 .social-links{
   text-align: center;
+  margin-top: 1500px;
 }
+.about{
+  margin-top: 200px;
+}
+.data{
+				float: left;
+				width: 55%;
+				margin-left: 20px;
+}
+.img{
+				float: right;
+				
+				width: 30%;
+}
+.img img{
+				width: 100%;
+				height: auto;
+				
+				
+}
+.title{
+				font-size: 20px;
+				
+}
+.content h5{
+				font-size: 18px;
+				letter-spacing: 0.5px;
+				margin-top: 10px;
+				margin-left: 5px;
+				margin-bottom: 5px;
+				
+				
+}
+.content p{
+				font-size: 10px;
+				color: dimgray;
+}
+.btn{
+				margin-top: 20px;
+				border-radius: 10px;
+				
+}
+.btn button{
+				background: linear-gradient(to right, royalblue, darkblue);
+				text-decoration: none;
+				color: white;
+				padding: 12px 14px;
+				letter-spacing: 1.5px;
+		  width: 100%;
+		  border-radius: 30px;
+		  border: none;
+		  outline: none;
+		  
+}
+
+
 @media only screen and (max-width: 700px){
   nav ul{ 
   width: 100%;
@@ -166,6 +222,7 @@ button{
   #menuList{
     overflow: hidden;
     transition: 0.5s;
+    
   }
   .row{
     flex-direction: column-reverse;
@@ -184,8 +241,33 @@ button{
   .col-1 h2 {
     font-size: 35px;
   }
-  col-1 h5 {
+  .col-1 h5 {
     font-size: 15px;
   
+  }
+  .img{
+    display: none;
+  }
+  .img img{
+    display: none;
+    background-image:
+     none;
+    float: left;
+  }
+  .about{
+    
+    margin-right: -150px;
+    
+  }
+  .btn{
+    width: 50%;
+    text-align: center;
+  }
+  .btn button{
+    border-radius: 5px;
+  }
+  
+  .content{
+    
   }
 }
